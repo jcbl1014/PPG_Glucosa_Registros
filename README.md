@@ -47,27 +47,9 @@ This dataset can be used for:
 - Studying the relationship between PPG signal characteristics and glucose levels.
 - Investigating the impact of demographic factors such as age and gender on PPG signals.
 
-## Getting Started
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/jcbl1014/PPG_Glucosa_Registros.git
-   ```
-
-2. **Navigate to the dataset directory:**
-
-   ```bash
-   cd PPG_Glucosa_Registros
-   ```
-
-3. **Access data files:**
 
    Each subject’s data is stored in an individual CSV file (e.g., `Subject_1_complete.csv`).
 
-## Data Collection Method
-
-PPG signals were recorded using a standard PPG sensor placed on the fingertip. The sampling frequency was set at 100 Hz. Blood glucose levels were measured simultaneously using a calibrated glucometer.
 
 ## Download
 
