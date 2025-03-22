@@ -57,24 +57,3 @@ All CSV files are available in a compressed ZIP archive:
 
 🔗 [Download PPG_Glucosa_Registros.zip](https://github.com/jcbl1014/PPG_Glucosa_Registros/raw/main/PPG_Glucosa_Registros.zip)
 
-## Citation
-
-If this dataset is used in research, please cite:
-
-```
-@dataset{jcbl1014_PPG_Glucosa_Registros,
-  author       = {Julio Cesar},
-  title        = {Photoplethysmography (PPG) and Blood Glucose Dataset},
-  year         = 2025,
-  url          = {https://github.com/jcbl1014/PPG_Glucosa_Registros}
-}
-```
-
-## License
-
-This dataset is distributed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-Special thanks to all study participants for their contributions to this dataset.
-
