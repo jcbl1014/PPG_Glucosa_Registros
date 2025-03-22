@@ -46,6 +46,14 @@ for i = 1:length(files)
     % Load the .MAT file
     matData = load(files(i).name);
     
+  % Get a list of .MAT files in the current folder
+files = dir('*.mat');
+
+% Process each .MAT file
+for i = 1:length(files)
+    % Load the .MAT file
+    matData = load(files(i).name);
+    
     % Extract the vectors
     t = matData.t;   % Time vector
     y = matData.y;   % PPG forehead
