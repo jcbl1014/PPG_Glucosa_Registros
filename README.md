@@ -1,6 +1,5 @@
-# PPG_Glucosa_Registros
-Base de datos que contiene registros de señales PPG de 23 sujetos relacionados con la utilización de estas señales en la estimación de los niveles de  glucosa en sangre. 
-
+#PPG and Blood Glucose Dataset 2025
+This repository contains a dataset of PPG signals and blood glucose levels collected from multiple participants. The data can be used for research in biomedical signal processing and non-invasive glucose estimation.
 # Download Dataset  
 
 You can download all CSV files as a single ZIP file:  
