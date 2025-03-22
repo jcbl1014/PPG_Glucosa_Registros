@@ -37,50 +37,6 @@ t,y,y1,y2,GENDER,AGE,DIABETIC,TYPE OF DIABETES,BLOOD GLUCOSE LEVEL (mg/dL)
 0.01,0.52,0.021,-0.0011,M,45,NO,NOT APPLICABLE,85
 ...
 ```
-The .MAT files containing the raw PPG signals were converted to .CSV using the following MATLAB script:
-% Get a list of .MAT files in the current folder
-files = dir('*.mat');
-
-% Process each .MAT file
-for i = 1:length(files)
-    % Load the .MAT file
-    matData = load(files(i).name);
-    
-  % Get a list of .MAT files in the current folder
-files = dir('*.mat');
-
-% Process each .MAT file
-for i = 1:length(files)
-    % Load the .MAT file
-    matData = load(files(i).name);
-    
-    % Extract the vectors
-    t = matData.t;   % Time vector
-    y = matData.y;   % PPG forehead
-    y1 = matData.y1; % PPG ear
-    y2 = matData.y2; % PPG finger
-
-    % Create a table with the data
-    dataTable = table(t, y, y1, y2);
-
-    % Generate the .CSV filename
-    csvFileName = strrep(files(i).name, '.mat', '.csv');
-    
-    % Save the table as a CSV file
-    writetable(dataTable, csvFileName);
-    
-    fprintf('Converted file: %s\n', csvFileName);
-end
-
-disp('Conversion completed. All .MAT files have been converted to .CSV.');
-
-% Test the conversion with an example subject file
-data = readtable('Subject_17_complete.csv');  
-head(data) % Display the first rows of the file
-
-
-
-
 
 ## Research Applications
 
